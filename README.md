@@ -4,5 +4,4 @@
 ### -Nicolas Sosa
 ### -Nicolas Merlos Pavon
 # Idea:
-### Hacer una página con la API del clima que se actualice constantemente y nos muestre al igual que google la cantidad de grados o de sensación térmica, entre otras funciones
-
+### Hacer una página con la API de wikipedia donde al apretar un boton te tirara dos pagina diferentes, una de salida y otra de destino. De esa forma, tendras que llegar de la pagina A a la pagina B usando los links de la pagina.
