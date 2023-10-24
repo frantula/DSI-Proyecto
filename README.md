@@ -4,4 +4,4 @@
 ### -Nicolas Sosa
 ### -Nicolas Merlos Pavon
 # Idea:
-### Hacer una página con la API de wikipedia donde al apretar un boton te tirara dos pagina diferentes, una de salida y otra de destino. De esa forma, tendras que llegar de la pagina A a la pagina B usando los links de la pagina.
+### Hacer una página con la API de IMDb para poder buscar peliculas de nuestro interes, de esta forma podemo leer información al respecto al igual que podemos calificar y comentar sobre la pelicula.
