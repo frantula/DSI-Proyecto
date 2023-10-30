@@ -19,6 +19,20 @@ body{
 a{
     text-decoration: none;
 }
+
+#titulo{
+    color: #fff;
+    text-align: center;
+}
+#titulo span{
+    color: #d62828;
+}
+#nosotros{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
 img{
     width: 100%;
     display: block;
