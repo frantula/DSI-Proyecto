@@ -4,6 +4,7 @@
 const movieSearchBox = document.getElementById('movie-search-box');
 const searchList = document.getElementById('search-list');
 const resultGrid = document.getElementById('result-grid');
+const info = document.getElementById('info');
 
 // load movies from API
 async function loadMovies(searchTerm){
@@ -14,13 +15,15 @@ async function loadMovies(searchTerm){
     if(data.Response == "True") displayMovieList(data.Search);
 }
 
-function findMovies(){
+function findMovies() {
     let searchTerm = (movieSearchBox.value).trim();
-    if(searchTerm.length > 0){
+    if (searchTerm.length > 0) {
         searchList.classList.remove('hide-search-list');
+        info.style.display = 'none';
         loadMovies(searchTerm);
     } else {
         searchList.classList.add('hide-search-list');
+        info.style.display = 'block';
     }
 }
 
